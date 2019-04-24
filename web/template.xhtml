@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+       
+        <h:outputStylesheet name="main.css" library="css"></h:outputStylesheet>
+        <title>SunLeaf (Pvt) Ltd</title>
+    </h:head>
+
+    <h:body>
+       
+       <table cellspacing="5px" class="fillPageTable">
+            <tr class="headerRow">
+                <td id="top" class="blue">
+                    
+                    <table >
+                        <tr> 
+                           
+                            <td>
+                                    <h:outputLabel class="spacer2x"></h:outputLabel>
+                            </td>
+                            <td > 
+                                <h:graphicImage library="image" name="logo.png"></h:graphicImage>
+                            </td>
+                             <td>
+                                    <h:outputLabel class="spacer5x"></h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer1x boldedText">HOME</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer1x boldedText">ABOUT</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer1x boldedText">UKSOL</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer1x boldedText">PRODUCT</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer1x boldedText">PROJECT</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer1x boldedText">NEWS</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer1x boldedText">CONTACT</h:outputLabel>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <ui:insert name="top">
+                        
+                    </ui:insert>
+                </td>
+            </tr>
+            <tr class="content2">
+                <td id="content" >
+                    <ui:insert name="content" >
+                        The best way to explore solar solutions !!!
+                    </ui:insert>
+                </td>
+            </tr>
+            <tr>
+                <td id="bottom" class="content1">
+                    <ui:insert name="bottom" >
+
+                        &copy; SunLeaf (Pvt) Ltd.
+                        
+                        <div >
+                            <table  >
+                            <tr  class="fotterMargin">
+                             <td>
+                                <h:outputLabel class="spacer7x ">Commercial</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer7x ">Residential</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer7x ">Repair</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer7x ">Lerning Center</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer7x ">Careers</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer7x ">Maintenanse</h:outputLabel>
+                            </td>
+                            <td>
+                                <h:outputLabel class="spacer7x ">Contact</h:outputLabel>
+                            </td>
+                            </tr> 
+                        </table>
+                            
+                        </div>
+                        
+                    </ui:insert>
+                </td>
+            </tr>
+        </table>
+    </h:body>
+
+</html>
